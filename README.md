@@ -7,7 +7,7 @@
 
 **CyberForensic** is a real-time incident response and memory volatility simulator built entirely with Free Pascal and the Lazarus LCL. Step into the shoes of an elite cyber-forensic analyst dropped into a critical security breach. 
 
-<img width="900" height="554" alt="image" src="https://github.com/user-attachments/assets/970d5125-4302-4f3b-9614-03163b1a4f91" />
+<img width="900" height="504" alt="image" src="https://github.com/user-attachments/assets/970d5125-4302-4f3b-9614-03163b1a4f91" />
 
 
 Your mission is to monitor a live operating system environment, identify deceptive processes, and eradicate actively spreading malware (Root Infectors) before the threat actors successfully exfiltrate sensitive data. 
