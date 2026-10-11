@@ -1,3 +1,5 @@
 ## Tutorial 
 
-... Still WOrking ...
+In Bahasa 
+In English .. On Progress
+In Portugese .. On Progress
