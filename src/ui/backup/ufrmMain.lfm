@@ -1,0 +1,329 @@
+object frmMain: TfrmMain
+  Left = 200
+  Height = 768
+  Top = 100
+  Width = 1366
+  Caption = 'CYBER-FORENSIC: Live Volatility'
+  ClientHeight = 768
+  ClientWidth = 1366
+  Color = 920585
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  object pnlTopBar: TPanel
+    Left = 0
+    Height = 45
+    Top = 0
+    Width = 1366
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 45
+    ClientWidth = 1366
+    Color = 1183244
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object lblTitle: TLabel
+      Left = 24
+      Height = 25
+      Top = 10
+      Width = 320
+      Caption = 'CYBER-FORENSIC: Live Volatility'
+      Font.Color = 14852413
+      Font.Height = -21
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object pnlControlBoard: TPanel
+    Left = 1016
+    Height = 723
+    Top = 45
+    Width = 350
+    Align = alRight
+    BevelOuter = bvNone
+    ClientHeight = 723
+    ClientWidth = 350
+    Color = 1577997
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    object pnlMetadata: TPanel
+      Left = 16
+      Height = 170
+      Top = 16
+      Width = 318
+      Align = alTop
+      BorderSpacing.Around = 16
+      BevelOuter = bvNone
+      BorderStyle = bsNone
+      ClientHeight = 170
+      ClientWidth = 318
+      Color = 2958110
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+      object lblSectionMeta: TLabel
+        Left = 16
+        Height = 17
+        Top = 12
+        Width = 180
+        Caption = 'PROPERTIES && METADATA'
+        Font.Color = 14852413
+        Font.Height = -14
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lblMetaPID: TLabel
+        Left = 16
+        Height = 17
+        Top = 44
+        Width = 49
+        Caption = 'PID: N/A'
+        Font.Color = 14803425
+        Font.Height = -14
+        ParentFont = False
+      end
+      object lblMetaProcess: TLabel
+        Left = 16
+        Height = 17
+        Top = 72
+        Width = 105
+        Caption = 'Process: Unknown'
+        Font.Color = 14803425
+        Font.Height = -14
+        ParentFont = False
+      end
+      object lblMetaParent: TLabel
+        Left = 16
+        Height = 17
+        Top = 100
+        Width = 97
+        Caption = 'Parent: Unknown'
+        Font.Color = 14803425
+        Font.Height = -14
+        ParentFont = False
+      end
+      object lblMetaOffset: TLabel
+        Left = 16
+        Height = 17
+        Top = 128
+        Width = 115
+        Caption = 'Memory Offset: 0x0'
+        Font.Color = 14803425
+        Font.Height = -14
+        ParentFont = False
+      end
+    end
+    object pnlThreatMonitor: TPanel
+      Left = 16
+      Height = 130
+      Top = 202
+      Width = 318
+      Align = alTop
+      BorderSpacing.Around = 16
+      BevelOuter = bvNone
+      BorderStyle = bsNone
+      ClientHeight = 130
+      ClientWidth = 318
+      Color = 2958110
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 1
+      object lblSectionThreat: TLabel
+        Left = 16
+        Height = 17
+        Top = 12
+        Width = 170
+        Caption = 'ACTIVE THREAT MONITOR'
+        Font.Color = 14852413
+        Font.Height = -14
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lblThreatDataExfil: TLabel
+        Left = 16
+        Height = 17
+        Top = 44
+        Width = 133
+        Caption = 'DATA EXFILTRATED: 0%'
+        Font.Color = 14803425
+        Font.Height = -14
+        ParentFont = False
+      end
+      object shpExfilBarBG: TShape
+        Left = 16
+        Height = 14
+        Top = 68
+        Width = 286
+        Brush.Color = 2105376
+        Pen.Color = 3947580
+      end
+      object shpExfilBarFG: TShape
+        Left = 16
+        Height = 14
+        Top = 68
+        Width = 0
+        Brush.Color = 4014306
+        Pen.Style = psClear
+      end
+      object lblThreatDecay: TLabel
+        Left = 16
+        Height = 17
+        Top = 96
+        Width = 184
+        Caption = 'SYSTEM INTEGRITY DECAY: High'
+        Font.Color = 4014306
+        Font.Height = -14
+        ParentFont = False
+      end
+    end
+    object pnlTools: TPanel
+      Left = 16
+      Height = 160
+      Top = 348
+      Width = 318
+      Align = alTop
+      BorderSpacing.Around = 16
+      BevelOuter = bvNone
+      BorderStyle = bsNone
+      ClientHeight = 160
+      ClientWidth = 318
+      Color = 2958110
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 2
+      object lblSectionTools: TLabel
+        Left = 16
+        Height = 17
+        Top = 12
+        Width = 140
+        Caption = 'TOOLS && ANALYZERS'
+        Font.Color = 14852413
+        Font.Height = -14
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object edtRegexEngine: TEdit
+        Left = 16
+        Height = 25
+        Top = 48
+        Width = 286
+        Color = 1709072
+        Font.Color = 14852413
+        Font.Height = -14
+        ParentFont = False
+        TabOrder = 0
+      end
+      object cmbYaraMatcher: TComboBox
+        Left = 16
+        Height = 25
+        Top = 96
+        Width = 286
+        Color = 1709072
+        Font.Color = 14852413
+        Font.Height = -14
+        ItemHeight = 17
+        ParentFont = False
+        TabOrder = 1
+      end
+    end
+    object pnlSpectrumContainer: TPanel
+      Left = 16
+      Height = 100
+      Top = 524
+      Width = 318
+      Align = alTop
+      BorderSpacing.Around = 16
+      BevelOuter = bvNone
+      BorderStyle = bsNone
+      Color = 2958110
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 3
+    end
+  end
+  object pnlWorkspace: TPanel
+    Left = 0
+    Height = 723
+    Top = 45
+    Width = 1016
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 723
+    ClientWidth = 1016
+    Color = 1709072
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 2
+    object pnlProcessContainer: TPanel
+      Left = 0
+      Height = 220
+      Top = 0
+      Width = 1016
+      Align = alTop
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object splTop: TSplitter
+      Left = 0
+      Height = 6
+      Top = 220
+      Width = 1016
+      Align = alTop
+      Color = 2366488
+      ParentColor = False
+      ResizeAnchor = akTop
+    end
+    object pnlBottomArea: TPanel
+      Left = 0
+      Height = 497
+      Top = 226
+      Width = 1016
+      Align = alClient
+      BevelOuter = bvNone
+      ClientHeight = 497
+      ClientWidth = 1016
+      ParentBackground = False
+      TabOrder = 2
+      object pnlHexContainer: TPanel
+        Left = 0
+        Height = 497
+        Top = 0
+        Width = 500
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+      end
+      object splLeft: TSplitter
+        Left = 500
+        Height = 497
+        Top = 0
+        Width = 6
+        Align = alLeft
+        Color = 2366488
+        ParentColor = False
+        ResizeAnchor = akLeft
+      end
+      object pnlTerminalContainer: TPanel
+        Left = 506
+        Height = 497
+        Top = 0
+        Width = 510
+        Align = alClient
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 2
+      end
+    end
+  end
+  object tmrGameTick: TTimer
+    Enabled = False
+    OnTimer = tmrGameTickTimer
+    Left = 40
+    Top = 80
+  end
+end
