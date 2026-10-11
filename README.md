@@ -1,4 +1,8 @@
 # CyberForensic: Live Volatility 🔍💻
+![Lazarus Supported](https://img.shields.io/badge/Lazarus-Supported-blue.svg)
+![FPC Supported](https://img.shields.io/badge/FPC-Supported-yellow.svg)
+![BGRABitmap](https://img.shields.io/badge/Dependency-BGRABitmap-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 **CyberForensic** is a real-time incident response and memory volatility simulator built entirely with Free Pascal and the Lazarus LCL. Step into the shoes of an elite cyber-forensic analyst dropped into a critical security breach. 
 
