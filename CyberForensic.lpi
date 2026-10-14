@@ -143,6 +143,14 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="uThreatSpectrumComponent"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\ui\unitabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitAbout"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

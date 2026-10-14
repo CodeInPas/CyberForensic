@@ -11,7 +11,7 @@ uses
   {$ENDIF}
   Interfaces,
   Forms,
-  ufrmMain;
+  ufrmMain, UnitAbout;
 
 {$R *.res}
 
@@ -21,6 +21,7 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TFormAbout, FormAbout);
   Application.Run;
 end.
 

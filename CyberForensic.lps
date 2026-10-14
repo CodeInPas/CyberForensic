@@ -8,7 +8,7 @@
       <Unit>
         <Filename Value="CyberForensic.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="12" Y="14"/>
+        <CursorPos X="23" Y="14"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
@@ -18,16 +18,18 @@
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="141"/>
-        <CursorPos X="27" Y="152"/>
+        <TopLine Value="172"/>
+        <CursorPos X="22" Y="174"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\ui\uHexViewerComponent.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="9"/>
         <TopLine Value="197"/>
         <CursorPos X="5" Y="227"/>
         <UsageCount Value="25"/>
@@ -36,7 +38,7 @@
       <Unit>
         <Filename Value="src\ui\uProcessGraphComponent.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="10"/>
         <CursorPos X="5" Y="352"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
@@ -44,7 +46,7 @@
       <Unit>
         <Filename Value="src\ui\uTerminalEmulator.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="11"/>
         <TopLine Value="346"/>
         <CursorPos X="5" Y="376"/>
         <UsageCount Value="25"/>
@@ -53,8 +55,9 @@
       <Unit>
         <Filename Value="src\core\uGameStateManager.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="7"/>
-        <CursorPos X="5" Y="282"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="72"/>
+        <CursorPos X="60" Y="85"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
@@ -66,7 +69,7 @@
       <Unit>
         <Filename Value="src\core\uThreatAnomalyGenerator.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="155"/>
         <CursorPos X="5" Y="185"/>
         <UsageCount Value="25"/>
@@ -100,7 +103,7 @@
       <Unit>
         <Filename Value="src\data\uGenericsModels.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="99"/>
         <CursorPos X="5" Y="129"/>
         <UsageCount Value="25"/>
@@ -109,7 +112,7 @@
       <Unit>
         <Filename Value="src\data\uSQLiteManager.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="57"/>
         <CursorPos X="6" Y="78"/>
         <UsageCount Value="25"/>
@@ -126,92 +129,37 @@
         <UsageCount Value="25"/>
       </Unit>
       <Unit>
-        <Filename Value="src\ui\ufrmMain.lfm"/>
-        <HasResources Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="299"/>
-        <CursorPos X="4" Y="329"/>
-        <UsageCount Value="12"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit>
-      <Unit>
         <Filename Value="src\ui\uthreatspectrumcomponent.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uThreatSpectrumComponent"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="171"/>
         <CursorPos X="5" Y="201"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="src\ui\ufrmMain.lfm"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\ui\unitabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitAbout"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="src\ui\uTerminalEmulator.pas"/>
-        <Caret Line="252" Column="63" TopLine="248"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.pas"/>
-        <Caret Line="293" Column="32" TopLine="289"/>
-      </Position>
-      <Position>
-        <Filename Value="src\core\uThreatAnomalyGenerator.pas"/>
-        <Caret Line="9" Column="78"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.pas"/>
-        <Caret Line="342" Column="29" TopLine="337"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.pas"/>
-        <Caret Line="374" Column="5" TopLine="345"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.pas"/>
-        <Caret Line="242" Column="28" TopLine="236"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.pas"/>
-        <Caret Line="354" Column="27" TopLine="347"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.lfm"/>
-        <Caret Line="8" Column="39"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.lfm"/>
-        <Caret Line="342" Column="37" TopLine="329"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.lfm"/>
-        <Caret Line="339" Column="52" TopLine="329"/>
-      </Position>
-      <Position>
-        <Filename Value="src\data\uGenericsModels.pas"/>
-        <Caret Line="81" Column="54" TopLine="75"/>
-      </Position>
-      <Position>
-        <Filename Value="src\core\uGameStateManager.pas"/>
-        <Caret Line="144" Column="61" TopLine="140"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\uProcessGraphComponent.pas"/>
-        <Caret Line="300" Column="43" TopLine="296"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.pas"/>
-        <Caret Line="314" Column="35" TopLine="308"/>
-      </Position>
-      <Position>
-        <Filename Value="src\ui\ufrmMain.lfm"/>
-        <Caret Line="9" Column="21"/>
-      </Position>
-      <Position>
-        <Filename Value="src\data\uGenericsModels.pas"/>
-        <Caret Line="93" Column="41" TopLine="92"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="src\core\uThreatAnomalyGenerator.pas"/>
         <Caret Line="3" Column="30"/>
@@ -263,6 +211,73 @@
       <Position>
         <Filename Value="src\ui\ufrmMain.lfm"/>
         <Caret Line="293" Column="51" TopLine="281"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.lfm"/>
+        <Caret Line="329" Column="4" TopLine="296"/>
+      </Position>
+      <Position>
+        <Filename Value="src\core\uGameStateManager.pas"/>
+        <Caret Line="85" Column="60" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="295" Column="5" TopLine="269"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="296" Column="5" TopLine="270"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="297" Column="5" TopLine="271"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="298" Column="5" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="299" Column="5" TopLine="273"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="300" Column="5" TopLine="274"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="301" Column="5" TopLine="275"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="302" Column="5" TopLine="276"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="309" Column="5" TopLine="283"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="8" Column="65"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="172" Column="96" TopLine="172"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="173" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\unitabout.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="9" Column="41"/>
+      </Position>
+      <Position>
+        <Filename Value="src\ui\ufrmMain.pas"/>
+        <Caret Line="10" Column="76"/>
       </Position>
     </JumpHistory>
     <RunParams>
