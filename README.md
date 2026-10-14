@@ -27,6 +27,9 @@ Your mission is to monitor a live operating system environment, identify decepti
 In Bahasa And English
 https://github.com/CodeInPas/CyberForensic/tree/main/bin/docs 
 
+## Release
+https://github.com/CodeInPas/CyberForensic/releases/tag/Releasev01
+
 ## ☕ Support the Project
 
 If you find **FhazEditor** helpful and want to support its ongoing development, consider buying me a coffee or sending a tip. Any support is deeply appreciated!
