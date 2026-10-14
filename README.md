@@ -22,3 +22,9 @@ Your mission is to monitor a live operating system environment, identify decepti
 ### 🛠️ Built With
 *   [Free Pascal](https://www.freepascal.org/) / [Lazarus IDE](https://www.lazarus-ide.org/)
 *   Custom Off-Screen Rendering (BGRA)
+
+## Tutorial
+In Bahasa And English
+https://github.com/CodeInPas/CyberForensic/tree/main/bin/docs 
+
+
